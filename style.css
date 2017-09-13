@@ -1,1 +1,14 @@
-s
+Body{
+	background:gray;
+	text-align: center;
+}
+
+#JoinNow{
+	color: #66ff33;
+}
+
+
+.Info{
+	background: white;
+
+}
