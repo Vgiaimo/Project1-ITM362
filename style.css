@@ -10,7 +10,7 @@
 }
 /*CLEARFLOATS of the CHILDREN*/
 
-Body{
+body{
 	background:gray;
 	text-align: center;
 }
@@ -66,5 +66,25 @@ label {
 
 }
 
+@media screen and (min-width: 960px){
 
+
+.title {
+	font-size: 5em;
+}
+
+#JoinNow{
+	font-size: 3em;
+}
+
+legend {
+	font-size: 40px;
+}
+
+label {
+	font-size: 30px;
+}
+
+
+}
 

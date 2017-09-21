@@ -17,13 +17,14 @@
  <div class="Info">
    <fieldset>
      <legend><strong>Enter Your Information</strong></legend>
-     <p><label>First Name: <input type="text" name="first_name_field" placeholder="First Name"></label></p>
-     <p><label>Last Name: <input type="text" name="last_name_field" placeholder="Last Name"></label></p>
-     <p><label> Email Address: <input type="email" name="email_field" placeholder="email@iit.edu"></label></p>
+     <p><label>First Name: <input type="text" id="firstName"  placeholder="First Name" onfocus="highlight(this)" onchange="bigtext();"></label></p>
+     <p><label>Last Name: <input type="text" id="lastName" name="last_name_field" placeholder="Last Name" onfocus="highlight(this)"
+     onchange="bigtext();"></label></p>
+     <p><label> Email Address: <input type="email" name="email_field" placeholder="email@iit.edu" onfocus="highlight(this)"></label></p>
      <p>
      <label>Gender:</label>
-     <label><input type="radio" name="gender_field" value="M">Male</label>
-     <label><input type="radio" name="gender_field" value="F">Female</label>
+     <label><input type="radio" name="gender_field" value="M" onfocus="highlight(this)">Male</label>
+     <label><input type="radio" name="gender_field" value="F" onfocus="highlight(this)">Female</label>
      </p>
      <p>
      <label>Age:</label>
@@ -38,7 +39,7 @@
      </select>
      </p>
      <p class="button">
-     <input type="submit" value="Submit" onclick="return button();">
+     <input type="submit" value="Submit" onclick="return button();" onfocus="highlight(this)">
      </p>
    </fieldset>
  </div>
