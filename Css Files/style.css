@@ -11,18 +11,18 @@
 /*CLEARFLOATS of the CHILDREN*/
 
 body{
-	background:gray;
-	text-align: center;
+  background:gray;
+  text-align: center;
 }
 
 .container {
-	max-width: 960px;
-	margin: 0 auto;
-	font-family: 'Roboto Condensed', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #JoinNow{
-	color: #66ff33;
+  color: #66ff33;
 }
 
 
@@ -78,7 +78,7 @@ label {
 }
 
 legend {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 label {
