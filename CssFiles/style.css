@@ -55,8 +55,7 @@ img {
 .button {
   display: block;
   margin-right: auto;
-  margin-left: auto;
-  
+  margin-left: auto;  
 }
 
 
@@ -64,6 +63,11 @@ img {
   display: none;
 }
 
+
+#copyright{
+  text-align: center;
+  color: #66ff33;
+}
 
 @media screen and (min-width: 400px){
 
