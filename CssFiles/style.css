@@ -1,12 +1,12 @@
 /*CLEARFLOATS OF the CHILDREN*/
 .group:before,
 .group:after {
-	content: "";
-	display: table;
+  content: "";
+  display: table;
 }
 
 .group:after {
-	clear: both;
+  clear: both;
 }
 /*CLEARFLOATS of the CHILDREN*/
 
@@ -16,9 +16,9 @@ body{
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
-  font-family: 'Roboto Condensed', sans-serif;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title{
@@ -36,55 +36,74 @@ body{
   background: #8c8c8c;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
-
 }
 
+input[type=text], input[type=tel], input[type=email] {
+  width: 35%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  }
 
 
 img {
   display: block;
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  
 }
+
+
+.image2{
+  display: none;
+}
+
 
 @media screen and (min-width: 400px){
 
 
 .title {
-	font-size: 4em;
+  font-size: 4em;
 }
 
 #JoinNow{
-	font-size: 2em;
+  font-size: 2em;
 }
 
 legend {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 label {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 
+}
+
+.image1{
+  display: none;
+}
+
+.image2{
+  display: block;
 }
 
 @media screen and (min-width: 960px){
 
 
 .title {
-	font-size: 4em;
+  font-size: 4em;
 }
 
 #JoinNow{
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 legend {
@@ -92,7 +111,15 @@ legend {
 }
 
 label {
-	font-size: 30px;
+  font-size: 30px;
+}
+
+.image1{
+  display: block;
+}
+
+.image2{
+  display: none;
 }
 
 
