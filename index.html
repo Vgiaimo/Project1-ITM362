@@ -4,30 +4,31 @@
  <meta charset="utf-8">
  <title>Project-1</title>
  <link rel="stylesheet" type="text/css" href="cssreset.css">
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="CssFiles/style.css">
  <script src="java.js"></script>
  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+ <link href="<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">"
 </head>
 <body>
  <div class="container">
- <form>
- <h1 class="title">EMAIL NEWSLETTER SUBSCRIPTION</h1>
+ <form method="get" action="#null">
+ <h1 class="title">Weekly News on Truck Builds and Parts</h1>
  <img src="Images/Recoil.jpg" alt="Picuture of Trophy Truck">
- <h3 id="JoinNow">Join Now for weekly News on Truck Builds and Parts!</h3>
+ <p></P>
  <div class="Info">
    <fieldset>
-     <legend><strong>Enter Your Information</strong></legend>
+     <legend><strong id="JoinNow">Join Now!</strong></legend>
      <p><label>First Name: <input type="text" id="firstName"  placeholder="First Name" onfocus="highlight(this)" onchange="bigtext();"></label></p>
      <p><label>Last Name: <input type="text" id="lastName" name="last_name_field" placeholder="Last Name" onfocus="highlight(this)"
      onchange="bigtext();"></label></p>
-     <p><label> Email Address: <input type="email" name="email_field" placeholder="Email@iit.edu" onfocus="highlight(this)"></label></p>
+     <p><label id="email">Email Address: <input type="email" name="email_field" placeholder="Email@iit.edu" onfocus="highlight(this)"></label></p>
      <p>
-     <label>Gender:</label>
+     <label>Gender: </label>
      <label><input type="radio" name="gender_field" value="M" onfocus="highlight(this)">Male</label>
      <label><input type="radio" name="gender_field" value="F" onfocus="highlight(this)">Female</label>
      </p>
      <p>
-     <label>Age:</label>
+     <label>Age: </label>
        <select name="age_field">
        <option value="Under 18">Under 18</option>
        <option value="18-24">18 - 24</option>
@@ -39,7 +40,7 @@
      </select>
      </p>
      <p class="button">
-     <input type="submit" value="Submit" onclick="return button();" onfocus="highlight(this)">
+     <input type="submit" value="Build To Shred" onclick="return button();" onfocus="highlight(this)">
      </p>
    </fieldset>
  </div>
