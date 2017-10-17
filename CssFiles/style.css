@@ -1,0 +1,132 @@
+/*CLEARFLOATS OF the CHILDREN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+/*CLEARFLOATS of the CHILDREN*/
+
+body{
+  background: #4d4d4d;
+
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Permanent Marker','Roboto Condensed', sans-serif;
+}
+
+.title{
+  color: #66ff33;
+ text-align: center;
+}
+
+
+#JoinNow{
+  color: #66ff33;
+}
+
+
+.Info{
+  background: #8c8c8c;
+  text-align: center;
+  padding-top: 10px;
+}
+
+input[type=text], input[type=tel], input[type=email] {
+  width: 35%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  }
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.074em; /*(33.178px/16px=2.074em) Minor 3rd */
+}
+
+
+#copyright{
+  text-align: center;
+  color: #66ff33;
+}
+
+
+
+@media screen and (min-width: 400px){
+
+
+.title {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+#JoinNow{
+  font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */
+}
+
+legend {
+  font-size: 2.074em; /*(33.178px/16px=2.074em) Minor 3rd */
+}
+
+label {
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+.image1{
+  display: none;
+}
+
+.image2{
+  display: block;
+}
+
+}
+
+@media screen and (min-width: 960px){
+
+
+.title {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+#JoinNow{
+  font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */
+}
+
+legend {
+  font-size: 2.074em; /*(33.178px/16px=2.074em) Minor 3rd */
+}
+
+label {
+ font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+.image2{
+  display: none;
+}
+
+.image1{
+  display: block;
+}
+
+}
+
+
+
