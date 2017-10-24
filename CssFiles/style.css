@@ -18,7 +18,7 @@ body{
 .container {
   max-width: 960px;
   margin: 0 auto;
-  font-family: 'Permanent Marker','Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed';
 }
 
 .title{
@@ -36,12 +36,14 @@ body{
   background: #8c8c8c;
   text-align: center;
   padding-top: 10px;
+  font-family: 'Permanent Marker';
 }
 
-input[type=text], input[type=tel], input[type=email] {
-  width: 35%;
+input[type=text], input[type=text], input[type=email] {
+  width: 40%;
   padding: 8px 10px;
   margin: 5px 0;
+  text-align: center;
   box-sizing: border-box;
   }
 
