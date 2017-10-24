@@ -1,13 +1,7 @@
-/*function button()
+function submitButton()
 {
-  alert("Thank you for Subscribing!");
-  return true;
-}
-*/
-
-function clicked() {
-
-	alert('Thank You For Subscribing!');
+   alert("Thank you for Subscribing!");
+   return true;
 }
 
 function bigtext()
